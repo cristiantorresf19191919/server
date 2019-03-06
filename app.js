@@ -13,7 +13,7 @@ const routesUsuarios= require('./routes/usuarios');
 
 // conectar a la base de datos de mongoose
 const opt = {useNewUrlParser:true};
-const mongourl = 'mongodb://cumbreandina:electronica1119@ds163013.mlab.com:63013/tigre';
+const mongourl = 'mongodb://usernamedb:passworddb@ds163013.mlab.com:63013/tigre';
 mongoose.connect(mongourl,opt);
 const db = mongoose.connection;
 
